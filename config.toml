@@ -1,0 +1,5 @@
+baseURL = 'https://hennus-dev.github.io'
+languageCode = 'es-ES'
+title = "Hennu's DEV - Scripts documentation"
+theme = 'hugo-geekdoc'
+defaultContentLanguage = 'es'
