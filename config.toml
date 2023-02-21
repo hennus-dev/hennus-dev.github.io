@@ -22,7 +22,8 @@ enableRobotsTXT = true
 
     [markup.tableOfContents]
         startLevel = 1
-
+[minify]
+    disableHTML = true
 # Multi-lingual mode config
 # There are different options to translate files
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
@@ -57,7 +58,7 @@ enableRobotsTXT = true
 
     # (Optional, default static/brand.svg) Set the path to a logo for the Geekdoc
     # relative to your 'static/' folder.
-    geekdocLogo = "logo.png"
+    geekdocLogo = "hennus.png"
 
     # (Optional, default false) Render menu from data file in 'data/menu/main.yaml'.
     # See also https://geekdocs.de/usage/menus/#bundle-menu.
@@ -156,7 +157,7 @@ enableRobotsTXT = true
 
     # (Optional, default none) Set the path to a logo for the book. If the logo is
     # /static/logo.png then the path would be logo.png
-    # BookLogo = 'logo.png'
+    # BookLogo = 'hennus.png'
 
     # (Optional, default none) Set leaf bundle to render as side menu
     # When not specified file structure and weights will be used
