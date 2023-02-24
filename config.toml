@@ -2,7 +2,6 @@
 
 baseURL = 'https://hennus-dev.github.io'
 title = "Hennu's DEV Doc"
-#theme = 'hugo-geekdoc'
 theme = 'hugo-book'
 defaultContentLanguage = 'en'
 #languageCode = 'es-ES'
@@ -77,7 +76,7 @@ enableRobotsTXT = true
 
     # Set source repository location.
     # Used for 'Last Modified' and 'Edit this page' links.
-    BookRepo = 'https://github.com/alex-shpak/hugo-book'
+    BookRepo = 'https://github.com/hennus-dev/hennus-dev.github.io'
 
     # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
     # commit hash for 'doc' page type.
@@ -89,7 +88,7 @@ enableRobotsTXT = true
     # Enable "Edit this page" links for 'doc' page type.
     # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
     # Edit path must point to root directory of repo.
-    BookEditPath = 'edit/main/exampleSite'
+    #BookEditPath = 'edit/main/exampleSite'
 
     # Configure the date format used on the pages
     # - In git information
@@ -105,7 +104,7 @@ enableRobotsTXT = true
     # By default partals/docs/comments.html includes Disqus template
     # See https://gohugo.io/content-management/comments/#configure-disqus
     # Can be overwritten by same param in page frontmatter
-    BookComments = true
+    BookComments = false
 
     # /!\ This is an experimental feature, might be removed or changed at any time
     # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.

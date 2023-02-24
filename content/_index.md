@@ -1,8 +1,12 @@
 ---
 title: Welcome to the Hennu's Dev documentation
-geekdocNav: true
-geekdocAlign: center
-geekdocAnchor: false
+draft: false
+# bookFlatSection: false
+bookToc: false
+# bookHidden: false
+# bookCollapseSection: false
+# bookComments: false
+# bookSearchExclude: false
 ---
 
 ## Welcome!
