@@ -1,414 +1,114 @@
 <!DOCTYPE html>
-<html
-  lang="es"
-  class="color-toggle-hidden"
-  
->
-  <head>
-    <meta charset="UTF-8" />
-<meta name="referrer" content="no-referrer" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="color-scheme" content="light dark" />
-<meta name="generator" content="Hugo 0.109.0">
-
-
-  <meta name="description" content="We will try to keep the documentation up to date with each update of each script.! exports It is planned to give you the information through the following exports
-addPed exports[&#39;Laz-target&#39;]:addPed(&#39;model&#39;, &#39;anim&#39;,coords)# Exampleexports[&#39;Laz-target&#39;]:addPed(&#39;a_f_y_bevhills_04&#39;, &#39;anim&#39;, vector4(100.35, -1077.02, 28.21, 239.06)addObject exports[&#39;Laz-target&#39;]:addObject(&#39;model&#39;,coords)# Exampleexports[&#39;Laz-target&#39;]:addObject(&#39;model&#39;,coords)AddTargetPeds exports[&#39;&#39;Laz-target&#39;]:addTargetPeds(name , model, distance, options, BlackList, WhiteList)# Example exports[&#39;Laz-target&#39;]:AddTargetPeds(&#39;Laz-carinsurance&#39;,{&#39;a_f_y_bevhills_04&#39;}, 3.0,{{event = &#39;Laz-carinsurance:open&#39;,key = &#39;Laz-carinsurance:open&#39;,label = &#39;Open&#39;}},false,{ coords = {pos = vector3(100." />
-
-    <title>hn-target | Hennu&#39;s DEV - Scripts documentation</title>
-
-    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
-<link
-  rel="icon"
-  type="image/png"
-  sizes="32x32"
-  href="/favicon/favicon-32x32.png"
-/>
-<link
-  rel="icon"
-  type="image/png"
-  sizes="16x16"
-  href="/favicon/favicon-16x16.png"
-/>
-
-    
-
-    
-  <meta
-    property="og:title"
-    content="hn-target"
-  />
-  <meta property="og:site_name" content="Hennu's DEV - Scripts documentation" />
-  <meta property="og:description" content="We will try to keep the documentation up to date with each update of each script.! exports It is planned to give you the information through the following exports
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="We will try to keep the documentation up to date with each update of each script.! exports # It is planned to give you the information through the following exports
+addPed exports[&#39;Laz-target&#39;]:addPed(&#39;model&#39;, &#39;anim&#39;,coords)# Exampleexports[&#39;Laz-target&#39;]:addPed(&#39;a_f_y_bevhills_04&#39;, &#39;anim&#39;, vector4(100.35, -1077.02, 28.21, 239.06)addObject exports[&#39;Laz-target&#39;]:addObject(&#39;model&#39;,coords)# Exampleexports[&#39;Laz-target&#39;]:addObject(&#39;model&#39;,coords)AddTargetPeds exports[&#39;&#39;Laz-target&#39;]:addTargetPeds(name , model, distance, options, BlackList, WhiteList)# Example exports[&#39;Laz-target&#39;]:AddTargetPeds(&#39;Laz-carinsurance&#39;,{&#39;a_f_y_bevhills_04&#39;}, 3.0,{{event = &#39;Laz-carinsurance:open&#39;,key = &#39;Laz-carinsurance:open&#39;,label = &#39;Open&#39;}},false,{ coords = {pos = vector3(100.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="hn-target" />
+<meta property="og:description" content="We will try to keep the documentation up to date with each update of each script.! exports # It is planned to give you the information through the following exports
 addPed exports[&#39;Laz-target&#39;]:addPed(&#39;model&#39;, &#39;anim&#39;,coords)# Exampleexports[&#39;Laz-target&#39;]:addPed(&#39;a_f_y_bevhills_04&#39;, &#39;anim&#39;, vector4(100.35, -1077.02, 28.21, 239.06)addObject exports[&#39;Laz-target&#39;]:addObject(&#39;model&#39;,coords)# Exampleexports[&#39;Laz-target&#39;]:addObject(&#39;model&#39;,coords)AddTargetPeds exports[&#39;&#39;Laz-target&#39;]:addTargetPeds(name , model, distance, options, BlackList, WhiteList)# Example exports[&#39;Laz-target&#39;]:AddTargetPeds(&#39;Laz-carinsurance&#39;,{&#39;a_f_y_bevhills_04&#39;}, 3.0,{{event = &#39;Laz-carinsurance:open&#39;,key = &#39;Laz-carinsurance:open&#39;,label = &#39;Open&#39;}},false,{ coords = {pos = vector3(100." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://hennus-dev.github.io/docs/scripts/hn-target/" />
+<meta property="og:url" content="https://hennus-dev.github.io/docs/scripts/hn-target/" /><meta property="article:section" content="docs" />
 
-<meta property="article:section" content="Docs" />
-    <meta
-      property="article:modified_time"
-      content="2023-02-21T00:55:47+01:00"
-    />
+<meta property="article:modified_time" content="2023-02-21T00:55:47+01:00" />
+<title>hn-target | Hennu&#39;s DEV - Scripts documentation</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/es.search.min.6b2d3509931e7c504d8ff7df169b4fb41adf60112cb7f05cabf0e7fefe5152b0.js" integrity="sha256-ay01CZMefFBNj/ffFptPtBrfYBEst/Bcq/Dn/v5RUrA=" crossorigin="anonymous"></script>
 
-
-  <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="hn-target" />
-  <meta name="twitter:description" content="We will try to keep the documentation up to date with each update of each script.! exports It is planned to give you the information through the following exports
-addPed exports[&#39;Laz-target&#39;]:addPed(&#39;model&#39;, &#39;anim&#39;,coords)# Exampleexports[&#39;Laz-target&#39;]:addPed(&#39;a_f_y_bevhills_04&#39;, &#39;anim&#39;, vector4(100.35, -1077.02, 28.21, 239.06)addObject exports[&#39;Laz-target&#39;]:addObject(&#39;model&#39;,coords)# Exampleexports[&#39;Laz-target&#39;]:addObject(&#39;model&#39;,coords)AddTargetPeds exports[&#39;&#39;Laz-target&#39;]:addTargetPeds(name , model, distance, options, BlackList, WhiteList)# Example exports[&#39;Laz-target&#39;]:AddTargetPeds(&#39;Laz-carinsurance&#39;,{&#39;a_f_y_bevhills_04&#39;}, 3.0,{{event = &#39;Laz-carinsurance:open&#39;,key = &#39;Laz-carinsurance:open&#39;,label = &#39;Open&#39;}},false,{ coords = {pos = vector3(100." />
-
-
-  <script type="application/ld+json">
-  {
-      "@context": "http://schema.org",
-      "@type": "TechArticle",
-      "articleSection": "Docs",
-      "name": "hn-target",
-      "url" : "https://hennus-dev.github.io/docs/scripts/hn-target/",
-      "headline": "hn-target",
-      "description": "We will try to keep the documentation up to date with each update of each script.! exports It is planned to give you the information through the following exports\naddPed exports[\u0027Laz-target\u0027]:addPed(\u0027model\u0027, \u0027anim\u0027,coords)\r# Example\rexports[\u0027Laz-target\u0027]:addPed(\u0027a_f_y_bevhills_04\u0027, \u0027anim\u0027, vector4(100.35, -1077.02, 28.21, 239.06)\raddObject exports[\u0027Laz-target\u0027]:addObject(\u0027model\u0027,coords)\r# Example\rexports[\u0027Laz-target\u0027]:addObject(\u0027model\u0027,coords)\rAddTargetPeds exports[\u0027\u0027Laz-target\u0027]:addTargetPeds(name , model, distance, options, BlackList, WhiteList)\r# Example exports[\u0027Laz-target\u0027]:AddTargetPeds(\u0027Laz-carinsurance\u0027,{\u0027a_f_y_bevhills_04\u0027}, 3.0,\r{\r{\revent = \u0027Laz-carinsurance:open\u0027,\rkey = \u0027Laz-carinsurance:open\u0027,\rlabel = \u0027Open\u0027\r}\r},\rfalse,\r{ coords = {\rpos = vector3(100.",
-      "wordCount" : "136",
-      "inLanguage": "es",
-      "isFamilyFriendly": "true",
-      "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://hennus-dev.github.io/docs/scripts/hn-target/"
-      },
-      "copyrightHolder" : "Hennu\u0027s DEV - Scripts documentation",
-      "copyrightYear" : "0001",
-      "dateCreated": "0001-01-01T00:00:00.00Z",
-      "datePublished": "0001-01-01T00:00:00.00Z",
-      "dateModified": "2023-02-21T00:55:47.00Z",
-      "publisher":{
-          "@type":"Organization",
-          "name": "Hennu's DEV - Scripts documentation",
-          "url": "https://hennus-dev.github.io",
-          "logo": {
-              "@type": "ImageObject",
-              "url": "https://hennus-dev.github.io/brand.svg",
-              "width":"32",
-              "height":"32"
-          }
-      }
-  }
-  </script>
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Hennu&#39;s DEV - Scripts documentation</span>
+  </a>
+</h2>
 
 
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Buscar" aria-label="Buscar" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
     
-<script src="/js/main-56ca818c.bundle.min.js"></script>
-
-<link
-  rel="preload"
-  as="font"
-  href="/fonts/Metropolis.woff2"
-  type="font/woff2"
-  crossorigin="anonymous"
-/>
-<link
-  rel="preload"
-  as="font"
-  href="/fonts/LiberationSans.woff2"
-  type="font/woff2"
-  crossorigin="anonymous"
-/>
-
-<link
-  rel="preload"
-  href="/main-1ebf16ca.min.css"
-  as="style"
-/>
-<link
-  rel="stylesheet"
-  href="/main-1ebf16ca.min.css"
-  media="all"
-/>
-
-<link
-  rel="preload"
-  href="/mobile-79ddc617.min.css"
-  as="style"
-/>
-<link
-  rel="stylesheet"
-  href="/mobile-79ddc617.min.css"
-  media="screen and (max-width: 45rem)"
-/>
-
-<link
-  rel="preload"
-  href="/print-735ccc12.min.css"
-  as="style"
-/>
-<link
-  rel="stylesheet"
-  href="/print-735ccc12.min.css"
-  media="print"
-/>
-
-<link
-  rel="preload"
-  href="/custom.css"
-  as="style"
-/>
-<link
-  rel="stylesheet"
-  href="/custom.css"
-  media="all"
-/>
-  <link href="https://hennus-dev.github.io/docs/scripts/hn-target/" rel="canonical" type="text/html" />
-
-<!-- Made with Geekdoc theme https://github.com/thegeeklab/hugo-geekdoc -->
-
-    
-
-  </head>
-
-  <body itemscope itemtype="https://schema.org/WebPage">
-    
-  <!-- geekdoc include: sprites/geekdoc.svg -->
-  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs></defs></svg>
+  
 
 
 
-
-    <div
-      class="wrapper "
-    >
-      <input type="checkbox" class="hidden" id="menu-control" />
-      <input type="checkbox" class="hidden" id="menu-header-control" />
-      
-      <header class="gdoc-header">
-  <div class="container flex align-center justify-between">
-    
-      <label for="menu-control" class="gdoc-nav__control" tabindex="0">
-        <svg class="gdoc-icon gdoc_menu">
-          <title>Open Navigation</title>
-          <use xlink:href="#gdoc_menu"></use>
-        </svg>
-        <svg class="gdoc-icon gdoc_arrow_back">
-          <title>Close Navigation</title>
-          <use xlink:href="#gdoc_arrow_back"></use>
-        </svg>
-      </label>
-    
-    <div>
-      <a class="gdoc-brand gdoc-header__link" href="https://hennus-dev.github.io">
-        <span class="flex align-center">
-          <img
-            class="gdoc-brand__img"
-            src="/hennus.png"
-            alt=""
-          />
-          <span class="gdoc-brand__title">Hennu&#39;s DEV - Scripts documentation</span>
-        </span>
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Spanish
       </a>
-    </div>
-    <div class="gdoc-menu-header">
-      <span class="gdoc-menu-header__items">
-        
+    </label>
 
-
-        <span id="gdoc-color-theme">
-          <svg class="gdoc-icon gdoc_brightness_dark">
-            <title>Toggle Dark/Light/Auto mode</title>
-            <use xlink:href="#gdoc_brightness_dark"></use>
-          </svg>
-          <svg class="gdoc-icon gdoc_brightness_light">
-            <title>Toggle Dark/Light/Auto mode</title>
-            <use xlink:href="#gdoc_brightness_light"></use>
-          </svg>
-          <svg class="gdoc-icon gdoc_brightness_auto">
-            <title>Toggle Dark/Light/Auto mode</title>
-            <use xlink:href="#gdoc_brightness_auto"></use>
-          </svg>
-        </span>
-
-        <span class="gdoc-menu-header__home">
-          <a href="https://hennus-dev.github.io" class="gdoc-header__link">
-            <svg class="gdoc-icon gdoc_home">
-              <title>Back to homepage</title>
-              <use xlink:href="#gdoc_home"></use>
-            </svg>
-          </a>
-        </span>
-
-        
-  <span class="gdoc-language">
-    <ul class="gdoc-language__selector" role="button" aria-pressed="false" tabindex="0">
+    <ul>
+      
       <li>
-        
-          
-            <span class="flex align-center">
-              <svg class="gdoc-icon gdoc_language"><use xlink:href="#gdoc_language"></use></svg>
-              <span>ES</span>
-            </span>
-          
-        
-          
-        
-
-
-        <ul class="gdoc-language__list">
-          
-            
-                <li>
-                  <a
-                    class="flex gdoc-language__entry"
-                    title="Page not translated: English"
-                    href="/en"
-                    hreflang="en"
-                    lang="en"
-                  >
-                    English*
-                  </a>
-                </li>
-              
-        </ul>
+        <a href="https://hennus-dev.github.io/en/">
+          English
+        </a>
       </li>
+      
     </ul>
-  </span>
+  </li>
+</ul>
 
 
 
 
-        <span class="gdoc-menu-header__control">
-          <label for="menu-header-control">
-            <svg class="gdoc-icon gdoc_keyboard_arrow_right">
-              <use xlink:href="#gdoc_keyboard_arrow_right"></use>
-              <title>Close Menu Bar</title>
-            </svg>
-          </label>
-        </span>
-      </span>
-      <label for="menu-header-control" class="gdoc-menu-header__control">
-        <svg class="gdoc-icon gdoc_keyboard_arrow_left">
-          <use xlink:href="#gdoc_keyboard_arrow_left"></use>
-          <title>Open Menu Bar</title>
-        </svg>
-      </label>
-    </div>
-  </div>
-</header>
 
 
 
-      <main class="container flex flex-even">
-        
-          <aside class="gdoc-nav">
-            <nav>
+
+
+
+
   
 
 
 
-  <section class="gdoc-nav--main">
-    <h2>Navigation</h2>
+  
+  <ul>
     
       
-
+        <li>
+          
+  
   
 
-
-  <ul class="gdoc-nav__list">
-    
-    
-      
-
-      
-        
-      
-
-      
-        
-          
-          
-          
-          
-          
-          
-
-
-          <li>
-            <input
-              type="checkbox"
-              
-                class="gdoc-nav__toggle" id="navtree-15db36a1"
-                checked
-              
-            />
-            <label
-              
-                for="navtree-15db36a1" class="flex justify-between align-center"
-              
-            >
-              
-                <span class="flex">Docs</span>
-              
-              
-                <svg class="gdoc-icon toggle gdoc_keyboard_arrow_left">
-                  <use xlink:href="#gdoc_keyboard_arrow_left"></use>
-                </svg>
-                <svg class="gdoc-icon toggle gdoc_keyboard_arrow_down">
-                  <use xlink:href="#gdoc_keyboard_arrow_down"></use>
-                </svg>
-              
-            </label>
-
-            
-              
+  
+    <a href="/docs/scripts/hn-target/" class="active">hn-target</a>
   
 
-
-  <ul class="gdoc-nav__list">
-    
-    
-      
-
-      
-        
-      
-
-      
-        
-          
-          
-          
-          
-          
-          
-
-
-          <li>
-            <input
-              type="checkbox"
-              
-                class="hidden"
-              
-            />
-            <label
-              
-            >
-              
-                <span class="flex">
-                  <a
-                    href="/docs/scripts/hn-target/"
-                    class="gdoc-nav__entry is-active"
-                  >
-                    hn-target
-                  </a>
-                </span>
-              
-              
-            </label>
-
-            
-          </li>
-        
-      
-    
-  </ul>
-
-            
-          </li>
-        
+        </li>
       
     
   </ul>
@@ -418,136 +118,112 @@ addPed exports[&#39;Laz-target&#39;]:addPed(&#39;model&#39;, &#39;anim&#39;,coor
 
 
 
-    
-  </section>
+
+
+
+
 
   
+<ul>
+  
+  <li>
+    <a href="https://github.com/alex-shpak/hugo-book"  target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://themes.gohugo.io/hugo-book/"  target="_blank" rel="noopener">
+        Hugo Themes
+      </a>
+  </li>
+  
+</ul>
 
 
-  <section class="gdoc-nav--more">
-    
-  </section>
+
+
+
+
 </nav>
 
-          </aside>
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
         
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
 
+  <strong>hn-target</strong>
 
-        <div class="gdoc-page">
-          
-  
-
-
-  
-
-
-
-
-
-
-<div
-  class="gdoc-page__header flex flex-wrap
-  
-    justify-end
-  
-  
-  "
-  itemprop="breadcrumb"
->
-  
-  
-    <div>
-      <span class="editpage">
-        <svg class="gdoc-icon gdoc_code"><use xlink:href="#gdoc_code"></use></svg>
-        <a
-          href="https://github.com/thegeeklab/hugo/edit/main/exampleSite/content.es/docs/scripts/hn-target.md"
-        >
-          Edit page
-        </a>
-      </span>
-    </div>
-  
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
 </div>
 
 
-
-  <article
-    class="gdoc-markdown gdoc-markdown__align--left"
-  >
-    <h1>hn-target</h1>
+  
+  <aside class="hidden clearfix">
     
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#exports">exports</a></li>
+  </ul>
+</nav>
 
 
 
+  </aside>
+  
+ 
+      </header>
 
-<blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Note"></i></div>
-  <div class="gdoc-hint__text">We will try to keep the documentation up to date with each update of each script.!</div>
+      
+      
+  <article class="markdown"><blockquote class="book-hint ">
+  We will try to keep the documentation up to date with each update of each script.!
 </blockquote>
 
-<div class="gdoc-page__anchorwrap">
-    <h1 id="exports">
-        exports
-    </h1>
-</div>
+<h1 id="exports">
+  exports
+  <a class="anchor" href="#exports">#</a>
+</h1>
 <p>It is planned to give you the information through the following exports</p>
 
 
 
 
-
-<div class="gdoc-tabs">
-  
-    <input
-      type="radio"
-      class="gdoc-tabs__control hidden"
-      name="tabs-hntarget-exports"
-      id="tabs-hntarget-exports-0"
-      checked="checked"
-    />
-    <label for="tabs-hntarget-exports-0" class="gdoc-tabs__label">
-      addPed
-    </label>
-    <div class="gdoc-markdown--nested gdoc-tabs__content">
-      <pre><code>exports['Laz-target']:addPed('model', 'anim',coords)
+<div class="book-tabs"><input type="radio" class="toggle" name="tabs-hntarget-exports" id="tabs-hntarget-exports-0" checked="checked" />
+  <label for="tabs-hntarget-exports-0">addPed</label>
+  <div class="book-tabs-content markdown-inner"><pre><code>exports['Laz-target']:addPed('model', 'anim',coords)
 
 # Example
 exports['Laz-target']:addPed('a_f_y_bevhills_04', 'anim', vector4(100.35, -1077.02, 28.21, 239.06)
 </code></pre>
-
-    </div>
-  
-    <input
-      type="radio"
-      class="gdoc-tabs__control hidden"
-      name="tabs-hntarget-exports"
-      id="tabs-hntarget-exports-1"
-      
-    />
-    <label for="tabs-hntarget-exports-1" class="gdoc-tabs__label">
-      addObject
-    </label>
-    <div class="gdoc-markdown--nested gdoc-tabs__content">
-      <pre><code>exports['Laz-target']:addObject('model',coords)
+</div><input type="radio" class="toggle" name="tabs-hntarget-exports" id="tabs-hntarget-exports-1"  />
+  <label for="tabs-hntarget-exports-1">addObject</label>
+  <div class="book-tabs-content markdown-inner"><pre><code>exports['Laz-target']:addObject('model',coords)
 
 # Example
 exports['Laz-target']:addObject('model',coords)
 </code></pre>
-
-    </div>
-  
-    <input
-      type="radio"
-      class="gdoc-tabs__control hidden"
-      name="tabs-hntarget-exports"
-      id="tabs-hntarget-exports-2"
-      
-    />
-    <label for="tabs-hntarget-exports-2" class="gdoc-tabs__label">
-      AddTargetPeds
-    </label>
-    <div class="gdoc-markdown--nested gdoc-tabs__content">
-      <pre><code>exports[''Laz-target']:addTargetPeds(name , model, distance,  options, BlackList, WhiteList)
+</div><input type="radio" class="toggle" name="tabs-hntarget-exports" id="tabs-hntarget-exports-2"  />
+  <label for="tabs-hntarget-exports-2">AddTargetPeds</label>
+  <div class="book-tabs-content markdown-inner"><pre><code>exports[''Laz-target']:addTargetPeds(name , model, distance,  options, BlackList, WhiteList)
 
 # Example 
 exports['Laz-target']:AddTargetPeds('Laz-carinsurance',{'a_f_y_bevhills_04'}, 3.0,
@@ -567,21 +243,9 @@ exports['Laz-target']:AddTargetPeds('Laz-carinsurance',{'a_f_y_bevhills_04'}, 3.
     }
 )
 </code></pre>
-
-    </div>
-  
-    <input
-      type="radio"
-      class="gdoc-tabs__control hidden"
-      name="tabs-hntarget-exports"
-      id="tabs-hntarget-exports-3"
-      
-    />
-    <label for="tabs-hntarget-exports-3" class="gdoc-tabs__label">
-      AddTargetObjects
-    </label>
-    <div class="gdoc-markdown--nested gdoc-tabs__content">
-      <pre><code>exports[''Laz-target']:AddTargetObjects(name , model, distance,  options, BlackList, WhiteList)
+</div><input type="radio" class="toggle" name="tabs-hntarget-exports" id="tabs-hntarget-exports-3"  />
+  <label for="tabs-hntarget-exports-3">AddTargetObjects</label>
+  <div class="book-tabs-content markdown-inner"><pre><code>exports[''Laz-target']:AddTargetObjects(name , model, distance,  options, BlackList, WhiteList)
 
 # Example 
 exports['Laz-target']:AddTargetObjects('Laz-carinsurance',{'a_f_y_bevhills_04'}, 3.0,
@@ -601,94 +265,89 @@ exports['Laz-target']:AddTargetObjects('Laz-carinsurance',{'a_f_y_bevhills_04'},
     }
 )
 </code></pre>
+</div></div>
 
-    </div>
-  
+<blockquote class="book-hint ">
+  these exports can be updated. it&rsquo;s still a beta.
+</blockquote>
+
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/bff324eb09ab8c93904c1fa9834b45d18a3bb6bc" title='Última modificación por jacanales | February 21, 2023' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>February 21, 2023</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/content.es/docs/scripts/hn-target.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Editar esta página</span>
+    </a>
+  </div>
+
+
 </div>
 
 
 
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
 
 
-
-<blockquote class="gdoc-hint warning">
-  <div class="gdoc-hint__title flex align-center"><i class="fa warning" title="Warning"></i></div>
-  <div class="gdoc-hint__text">these exports can be updated. it&rsquo;s still a beta.</div>
-</blockquote>
-
-
-  </article>
-
-
-
-          <div class="gdoc-page__footer flex flex-wrap justify-between">
-            
-
-
-
-
-
-
-
-
-  
-  
-
-  
-
-
-
-
-
-
-
-          </div>
-        </div>
-      </main>
-
-      <footer class="gdoc-footer">
-  <nav class="container flex">
-    <div>
-      <section class="flex flex-wrap align-center">
-        <span class="gdoc-footer__item gdoc-footer__item--row">
-          Creado por Hennu's DEV
-
-        </span>
+ 
         
-          <span class="gdoc-footer__item gdoc-footer__item--row">
-            <a href="https://blog.example.com/legal" class="gdoc-footer__link">
-              Legal Notice
-            </a>
-          </span>
-        
-        
-          <span class="gdoc-footer__item gdoc-footer__item--row">
-            <a href="/privacy" class="gdoc-footer__link">
-              Privacy Policy
-            </a>
-          </span>
-        
-      </section>
+      </footer>
+
       
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
+
     
-      <div class="flex flex-25 justify-end">
-        <span class="gdoc-footer__item text-right">
-          <a class="gdoc-footer__link fake-link" href="#" aria-label="Back to top">
-            <svg class="gdoc-icon gdoc_keyboard_arrow_up">
-              <use xlink:href="#gdoc_keyboard_arrow_up"></use>
-            </svg>
-            <span class="hidden-mobile">Back to top</span>
-          </a>
-        </span>
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#exports">exports</a></li>
+  </ul>
+</nav>
+
+
+ 
       </div>
+    </aside>
     
-  </nav>
-</footer>
+  </main>
 
-    </div>
-
-    
-
-  </body>
+  
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
