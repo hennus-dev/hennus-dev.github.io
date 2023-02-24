@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to the Hennu&#39;s Dev documentation on Hennu&#39;s DEV - Scripts documentation</title>
+    <title>Welcome to the Hennu&#39;s Dev documentation on Hennu&#39;s DEV Doc</title>
     <link>https://hennus-dev.github.io/</link>
-    <description>Recent content in Welcome to the Hennu&#39;s Dev documentation on Hennu&#39;s DEV - Scripts documentation</description>
+    <description>Recent content in Welcome to the Hennu&#39;s Dev documentation on Hennu&#39;s DEV Doc</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://hennus-dev.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hn-target</title>
@@ -11,8 +11,18 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hennus-dev.github.io/docs/scripts/hn-target/</guid>
-      <description>We will try to keep the documentation up to date with each update of each script.! exports # It is planned to give you the information through the following exports
-addPed exports[&#39;Laz-target&#39;]:addPed(&#39;model&#39;, &#39;anim&#39;,coords)# Exampleexports[&#39;Laz-target&#39;]:addPed(&#39;a_f_y_bevhills_04&#39;, &#39;anim&#39;, vector4(100.35, -1077.02, 28.21, 239.06)addObject exports[&#39;Laz-target&#39;]:addObject(&#39;model&#39;,coords)# Exampleexports[&#39;Laz-target&#39;]:addObject(&#39;model&#39;,coords)AddTargetPeds exports[&#39;&#39;Laz-target&#39;]:addTargetPeds(name , model, distance, options, BlackList, WhiteList)# Example exports[&#39;Laz-target&#39;]:AddTargetPeds(&#39;Laz-carinsurance&#39;,{&#39;a_f_y_bevhills_04&#39;}, 3.0,{{event = &#39;Laz-carinsurance:open&#39;,key = &#39;Laz-carinsurance:open&#39;,label = &#39;Open&#39;}},false,{ coords = {pos = vector3(100.</description>
+      <description>hn-target # We will try to keep the documentation up to date with each update of each script.! exports # It is planned to give you the information through the following exports
+addPed exports[&#39;hn-target&#39;]:addPed(&#39;model&#39;, &#39;anim&#39;,coords)# Exampleexports[&#39;hn-target&#39;]:addPed(&#39;a_f_y_bevhills_04&#39;, &#39;anim&#39;, vector4(100.35, -1077.02, 28.21, 239.06)addObject exports[&#39;hn-target&#39;]:addObject(&#39;model&#39;,coords)# Exampleexports[&#39;hn-target&#39;]:addObject(&#39;model&#39;,coords)AddTargetPeds exports[&#39;&#39;hn-target&#39;]:addTargetPeds(name , model, distance, options, BlackList, WhiteList)## Markdown content# Example exports[&#39;hn-target&#39;]:AddTargetPeds(&#39;hn-carinsurance&#39;,{&#39;a_f_y_bevhills_04&#39;}, 3.0,{{event = &#39;hn-carinsurance:open&#39;,key = &#39;hn-carinsurance:open&#39;,label = &#39;Open&#39;}},false,{ coords = {pos = vector3(100.</description>
+    </item>
+    
+    <item>
+      <title>hn-logs</title>
+      <link>https://hennus-dev.github.io/docs/scripts/hn-logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hennus-dev.github.io/docs/scripts/hn-logs/</guid>
+      <description> hn-logs # Standalone system to create logs on our server
+hn-logs:LogFields # client TriggerServerEvent(&#39;hn-Logs:LogFields&#39;, typewebhook, title, Description, color, footer, field, id, tag -- true or false ) server TriggerEvent(&#39;hn-Logs:LogFields&#39;, typewebhook, title, Description, color, footer, field, id, tag -- true or false ) field # field = { name = &#39;option Title&#39;, value = &#39;option value&#39;, inline = true --true or false } ### Disable description TriggerServerEvent(&#39;hn-Logs:LogFields&#39;, typewebhook, title, false, color, footer, field, id, tag -- true pr false ) ### Enable Mentions TriggerServerEvent(&#39;hn-Logs:LogFields&#39;, typewebhook, title, description, color, footer, field, id, true ) hn-logs:SimplyLog # client TriggerServerEvent(&#39;hn-Logs:SimplyLog&#39;, typewebhook, title, color, &#39;Inventario&#39;, text, tag -- true or false ) server TriggerEvent(&#39;hn-Logs:SimplyLog&#39;, typewebhook, title, color, &#39;Inventario&#39;, text, tag -- true or false ) </description>
     </item>
     
   </channel>

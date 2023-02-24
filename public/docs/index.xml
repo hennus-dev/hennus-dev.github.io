@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docs on Hennu&#39;s DEV - Scripts documentation</title>
+    <title>Docs on Hennu&#39;s DEV Doc</title>
     <link>https://hennus-dev.github.io/docs/</link>
-    <description>Recent content in Docs on Hennu&#39;s DEV - Scripts documentation</description>
+    <description>Recent content in Docs on Hennu&#39;s DEV Doc</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://hennus-dev.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>hn-target</title>
-      <link>https://hennus-dev.github.io/docs/scripts/hn-target/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hennus-dev.github.io/docs/scripts/hn-target/</guid>
-      <description>We will try to keep the documentation up to date with each update of each script.! exports # It is planned to give you the information through the following exports
-addPed exports[&#39;Laz-target&#39;]:addPed(&#39;model&#39;, &#39;anim&#39;,coords)# Exampleexports[&#39;Laz-target&#39;]:addPed(&#39;a_f_y_bevhills_04&#39;, &#39;anim&#39;, vector4(100.35, -1077.02, 28.21, 239.06)addObject exports[&#39;Laz-target&#39;]:addObject(&#39;model&#39;,coords)# Exampleexports[&#39;Laz-target&#39;]:addObject(&#39;model&#39;,coords)AddTargetPeds exports[&#39;&#39;Laz-target&#39;]:addTargetPeds(name , model, distance, options, BlackList, WhiteList)# Example exports[&#39;Laz-target&#39;]:AddTargetPeds(&#39;Laz-carinsurance&#39;,{&#39;a_f_y_bevhills_04&#39;}, 3.0,{{event = &#39;Laz-carinsurance:open&#39;,key = &#39;Laz-carinsurance:open&#39;,label = &#39;Open&#39;}},false,{ coords = {pos = vector3(100.</description>
-    </item>
-    
   </channel>
 </rss>
