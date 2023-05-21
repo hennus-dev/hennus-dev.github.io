@@ -3,7 +3,7 @@ title: hn-target
 weight: 1
 draft: false
 # bookFlatSection: false
-# bookToc: true
+bookToc: false
 # bookHidden: false
 # bookCollapseSection: false
 # bookComments: false
@@ -18,11 +18,12 @@ We will try to keep the documentation up to date with each update of each script
 
 ## exports
 
-It is planned to give you the information through the following exports
+For more information about how to use the exports, contact us on discord.
 
 {{< tabs "hntarget-exports" >}}
     {{< tab "addPed" >}}
-    exports['hn-target']:addPed('model', 'anim',coords)
+   
+    exports['hn-target']:addPed('model', 'anim', coords)
 
     # Example
     exports['hn-target']:addPed('a_f_y_bevhills_04', 'anim', vector4(100.35, -1077.02, 28.21, 239.06)
